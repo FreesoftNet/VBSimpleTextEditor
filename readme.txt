@@ -26,15 +26,16 @@ VBTextEditorはVisual Basic.netのテキスト処理学習ソフトです。
   Microsoft .NET Framework 4.5
 
 構成ファイル一覧
-  VBTextEditor_1_0_0.zip                   このファイル
+  VBTextEditor-master.zip                  このファイル
   解凍後
-  VBTextEditor
-    VBTextEditor.exe                       アプリケーション本体
+  VBTextEditor-master
+    make.bat                               コンパイル用のバッチファイル
     readme.txt                             このファイル
     *.vb                                   プログラムコード
 
 インストール
-  お好みのフォルダを作成してVBTextEditor_1_0_0.zipを解凍してください。
+  お好みのフォルダを作成してVBTextEditor-master.zipを解凍してください。
+  make.batを実行してVBTextEditor.exeが作成されるのを確認してください。
 
 アンインストール
   フォルダごと削除してください。

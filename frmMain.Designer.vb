@@ -52,6 +52,7 @@ Partial Class frmMain
         Me.コピーCToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.貼り付けPToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.すべて選択AToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ホームToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -206,7 +207,7 @@ Partial Class frmMain
         '
         'ContextMenuStrip1
         '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.元に戻すUToolStripMenuItem1, Me.ToolStripSeparator2, Me.切り取りTToolStripMenuItem, Me.コピーCToolStripMenuItem1, Me.貼り付けPToolStripMenuItem1, Me.すべて選択AToolStripMenuItem1})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.元に戻すUToolStripMenuItem1, Me.ToolStripSeparator2, Me.切り取りTToolStripMenuItem, Me.コピーCToolStripMenuItem1, Me.貼り付けPToolStripMenuItem1, Me.すべて選択AToolStripMenuItem1, Me.ホームToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.Size = New System.Drawing.Size(143, 120)
         '
@@ -244,6 +245,12 @@ Partial Class frmMain
         Me.すべて選択AToolStripMenuItem1.Name = "すべて選択AToolStripMenuItem1"
         Me.すべて選択AToolStripMenuItem1.Size = New System.Drawing.Size(142, 22)
         Me.すべて選択AToolStripMenuItem1.Text = "すべて選択(&A)"
+        '
+        'ホームToolStripMenuItem
+        '
+        Me.ホームToolStripMenuItem.Name = "ホームToolStripMenuItem"
+        Me.ホームToolStripMenuItem.Size = New System.Drawing.Size(142, 22)
+        Me.ホームToolStripMenuItem.Text = "ホーム"
         '
         'frmMain
         '
@@ -291,4 +298,5 @@ Partial Class frmMain
     Friend WithEvents コピーCToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents 貼り付けPToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents すべて選択AToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ホームToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

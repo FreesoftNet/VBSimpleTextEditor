@@ -241,11 +241,15 @@ Public Class frmMain
     Private Sub 開くOToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 開くOToolStripMenuItem.Click
         fileCode = "Shift-JIS"
         ReadFile(fileCode)
+        '2020/4/3
+        Modified = False
     End Sub
     
         Private Sub UTF8で開くOToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UTF8で開くOToolStripMenuItem.Click
         fileCode = "UTF-8"
         ReadFile(fileCode)
+        '2020/4/3
+        Modified = False
     End Sub
 
     Private Sub AToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AToolStripMenuItem.Click
@@ -378,12 +382,12 @@ Public Class frmMain
 
         End If
 
-        Modified = False
-        
         If FileName <> "" Then
             'msgbox(FileName + " " + fileCode)
             LoadFile(FileName,fileCode)
         End If
+
+        Modified = False
 
     End Sub
 
@@ -446,6 +450,10 @@ Public Class frmMain
         txtTextArea.Focus()
     End Sub
 
+    Private Sub ホームToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ホームToolStripMenuItem.Click
+        txtTextArea.SelectionStart = 0
+        txtTextArea.SelectionLength = 0
+    End Sub
 
 
     Private Sub frmMain_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
