@@ -1,2 +1,0 @@
-dir > files.txt
-pause
