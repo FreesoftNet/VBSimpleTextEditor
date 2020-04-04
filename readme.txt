@@ -14,7 +14,7 @@ VBTextEditorはVisual Basic.netのテキスト処理学習ソフトです。
 ・オープンソース 著作権ついては特に考えていなくて自由に修正・配布していただいて
   結構ですが、無保証です。このソフトを使用したことによる損害には対応できません。
 ・Visual Basic.netによる開発
-  Windows 10標準でインストールされているVisual Basic 2012のコンパイラを使用して自由に修正しながら機能追加できます。
+  Windows 10標準でインストールされているVisual Basic 2012のコンパイラ(vbc.exe)を使用して自由に修正しながら機能追加できます。
   ・メモ表に近い外観、使い勝手。ファイルメニューとリッチテキストボックスの簡単な組み合わせのアプリケーション。
 ・学習目的とし、後で自分用に処理を追加できるように簡潔なコーディングを志す。
 ・UTF-8に対応。
@@ -22,8 +22,8 @@ VBTextEditorはVisual Basic.netのテキスト処理学習ソフトです。
 ・最終目的としては、Visual Basicの開発サポートができるところまでやりたいと思っています（キーワードの色分け。アウトライン解析）。
 
 動作環境
-  OS          Microsoft .NET Framework 4.5が動作するOS(動作確認はWindows 10で行っています)
-  Microsoft .NET Framework 4.5
+  OS          Microsoft .NET Framework 4.0が動作するOS(動作確認はWindows 10で行っています)
+  Microsoft .NET Framework 4.0
 
 構成ファイル一覧
   VBTextEditor-master.zip                  このファイル
@@ -37,14 +37,21 @@ VBTextEditorはVisual Basic.netのテキスト処理学習ソフトです。
   お好みのフォルダを作成してVBTextEditor-master.zipを解凍してください。
   make.batを実行してVBTextEditor.exeが作成されるのを確認してください。
 
+コンパイル
+  Windowsのコントロールパネル>システム>システム詳細>環境変数で
+例) 64bitマシーンの場合
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+を環境変数に追加してください。
+  
+
 アンインストール
   フォルダごと削除してください。
 
 免責事項
    このプログラムを使用したことにより発生した障害については一切責任を負いかねます。
-   ソフトウェアのバグを発見した場合、ご要望、機能拡張に関しては、ブログにて
+   ソフトウェアのバグを発見した場合、ご要望、機能拡張に関しては、メールにて
    受け付けております。
-   メール
+   メール bi2hgaumwz＠yahoo.co.jp
 
 更新履歴
 
