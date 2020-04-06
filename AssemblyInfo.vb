@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' アセンブリ属性の値を確認します。
 
-<Assembly: AssemblyTitle("VBTextEditor")> 
-<Assembly: AssemblyDescription("このソフトウェアはフリーソフトです。")> 
+<Assembly: AssemblyTitle("VBSimpleTextEditor")> 
+<Assembly: AssemblyDescription("このソフトウェアはフリーソフトです。自由に配布してください。")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("VBTextEditor")> 
+<Assembly: AssemblyProduct("VBSimpleTextEditor")> 
 <Assembly: AssemblyCopyright("2020")> 
 <Assembly: AssemblyTrademark("")> 
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' 既定値にすることができます:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("0.1.0.0")> 
+<Assembly: AssemblyFileVersion("0.1.0.0")> 
