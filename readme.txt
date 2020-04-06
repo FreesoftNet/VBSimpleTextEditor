@@ -1,11 +1,11 @@
 ******************************************************************************
-*                    VBTextEditor ver 0.1.0                                  *
+*                    VBSimpleTextEditor ver 0.1.0                                  *
 *                                   リリース 2020/04/03 V0.1.0               *
 ******************************************************************************
 
 はじめに
-  この度はVBTextEditorをダウンロードしていただきありがとうございます。
-VBTextEditorはVisual Basic.netのテキスト処理学習ソフトです。
+  この度はVBSimpleTextEditorをダウンロードしていただきありがとうございます。
+VBSimpleTextEditorはVisual Basic.netのテキスト処理学習ソフトです。
 本ソフトウェアはフリーソフトです。配布は自由に行ってください。
 ソースコード付きです。
 
@@ -26,16 +26,16 @@ VBTextEditorはVisual Basic.netのテキスト処理学習ソフトです。
   Microsoft .NET Framework 4.0
 
 構成ファイル一覧
-  VBTextEditor-master.zip                  このファイル
+  VBSimpleTextEditor-master.zip                  このファイル
   解凍後
-  VBTextEditor-master
+  VBSimpleTextEditor-master
     make.bat                               コンパイル用のバッチファイル
     readme.txt                             このファイル
     *.vb                                   プログラムコード
 
 インストール
-  お好みのフォルダを作成してVBTextEditor-master.zipを解凍してください。
-  make.batを実行してVBTextEditor.exeが作成されるのを確認してください。
+  お好みのフォルダを作成してVBSimpleTextEditor-master.zipを解凍してください。
+  make.batを実行してVBSimpleTextEditor.exeが作成されるのを確認してください。
 
 コンパイル
   Windowsのコントロールパネル>システム>システム詳細>環境変数で
